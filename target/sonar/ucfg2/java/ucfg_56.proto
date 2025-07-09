@@ -1,0 +1,21 @@
+
+Lcom.example.demo.services.CustomerServices#getAllCustomers()Ljava/util/List;ê
+ÖC:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/services/CustomerServices.java  (/"1*º
+1 (!Ø
+¨
+ (!6
+%00com.example.demo.repositories.CustomerRepository"__id*b
+
+__unknown_file (F*D,
+*com.example.demo.services.CustomerServices"
+customerRepository÷”
+ (+
+%1java.util.List"Porg.springframework.data.repository.ListCrudRepository#findAll()Ljava/util/List;*T
+
+__unknown_file (8
+6
+%00com.example.demo.repositories.CustomerRepository2	findAll()""
+ (,
+
+%1java.util.ListB.,
+*com.example.demo.services.CustomerServicesH

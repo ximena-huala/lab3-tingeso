@@ -1,0 +1,31 @@
+
+bcom.example.demo.controllers.KartController#getAllKarts()Lorg/springframework/http/ResponseEntity;‘
+†C:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/controllers/KartController.java, (7"1*Ø
+1 (Ÿ
+œ
+! (,,
+%0&com.example.demo.services.KartServices"__id*\
+
+__unknown_file (@*>-
++com.example.demo.controllers.KartController"
+kartServiceÄÁ
+! (:
+%1java.util.List"Dcom.example.demo.services.KartServices#getAllKarts()Ljava/util/List;*J
+
+__unknown_file (.
+,
+%0&com.example.demo.services.KartServices2getAllKarts()¢
+Ÿ
+ (;-
+%2'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*2
+
+__unknown_file (
+
+%1java.util.List";
+ (</
+-
+%2'org.springframework.http.ResponseEntityB/-
++com.example.demo.controllers.KartControllerH

@@ -1,0 +1,686 @@
+
+1.0com.example:demoJavaFrontend"1752050933347*java2.Bž
+D
+?src/main/java/com/example/demo/services/ReservationService.java2
+
+package4
+
+com.example.demo.services5
+1
+,com.example.demo.services.ReservationService7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+ReservationService12
+,
+&org.springframework.stereotype.Service14
+
+unknown15
+
+annotated by16
+
+
+uses17
+H
+Bcom.example.demo.services.ReservationService.reservationRepository19
+
+field20
+
+private21
+
+reservationRepository22
+9
+3com.example.demo.repositories.ReservationRepository24
+
+is type25
+<
+6org.springframework.beans.factory.annotation.Autowired27
+S
+Mcom.example.demo.services.ReservationService.reservationParticipantRepository29
+&
+ reservationParticipantRepository30
+D
+>com.example.demo.repositories.ReservationParticipantRepository32
+E
+?com.example.demo.services.ReservationService.customerRepository34
+
+customerRepository35
+6
+0com.example.demo.repositories.CustomerRepository37
+K
+Ecom.example.demo.services.ReservationService.tariffDiscountRepository39
+
+tariffDiscountRepository40
+<
+6com.example.demo.repositories.TariffDiscountRepository42
+±
+ªcom.example.demo.services.ReservationService#createReservation(Lcom/example/demo/entities/ReservationEntity;Ljava/util/List;)Lcom/example/demo/entities/ReservationEntity;44
+
+method45
+
+createReservation46
+1
++com.example.demo.entities.ReservationEntity48
+
+returns49
+
+	has param50
+
+
+references51
+x
+rcom.example.demo.services.ReservationService#validateReservationTime(Ljava/time/LocalDate;Ljava/time/LocalTime;I)V53
+
+calls54
+.
+(com.example.demo.entities.CustomerEntity56
+h
+bcom.example.demo.repositories.CustomerRepository#findByRut(Ljava/lang/String;)Ljava/util/Optional;58
+<
+6com.example.demo.entities.ReservationParticipantEntity60
+â
+Ûcom.example.demo.repositories.ReservationParticipantRepository#findByCustomer_RutAndReservation_ReservationDateAndReservation_ReservationTime(Ljava/lang/String;Ljava/time/LocalDate;Ljava/time/LocalTime;)Ljava/util/List;62
+8
+2org.springframework.data.repository.CrudRepository64
+c
+]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;66
+:
+4com.example.demo.entities.CustomerEntity.dateOfBirth68
+<
+6org.springframework.data.repository.ListCrudRepository70
+j
+dorg.springframework.data.repository.ListCrudRepository#saveAll(Ljava/lang/Iterable;)Ljava/util/List;72
+
+validateReservationTime73
+ž
+—com.example.demo.repositories.ReservationRepository#findByReservationDateAndReservationTime(Ljava/time/LocalDate;Ljava/time/LocalTime;)Ljava/util/List;75
+W
+Qcom.example.demo.services.ReservationService#getAllReservations()Ljava/util/List;77
+
+getAllReservations78
+V
+Porg.springframework.data.repository.ListCrudRepository#findAll()Ljava/util/List;80
+r
+lcom.example.demo.services.ReservationService#getAvailableTimesForDate(Ljava/time/LocalDate;)Ljava/util/List;82
+
+getAvailableTimesForDate83
+[
+Ucom.example.demo.services.ReservationService#deleteReservationById(Ljava/lang/Long;)V85
+
+deleteReservationById86
+X
+Rorg.springframework.data.repository.CrudRepository#existsById(Ljava/lang/Object;)Z88
+X
+Rorg.springframework.data.repository.CrudRepository#deleteById(Ljava/lang/Object;)V90
+‚
+|com.example.demo.services.ReservationService#getIncomeByTrackTime(Ljava/time/LocalDate;Ljava/time/LocalDate;)Ljava/util/Map;92
+
+getIncomeByTrackTime93
+“
+Œcom.example.demo.repositories.ReservationRepository#findByReservationDateBetween(Ljava/time/LocalDate;Ljava/time/LocalDate;)Ljava/util/List;95
+…
+com.example.demo.services.ReservationService#getRevenueByPeopleCount(Ljava/time/LocalDate;Ljava/time/LocalDate;)Ljava/util/Map;97
+
+getRevenueByPeopleCount98J
+
+1
+12Z
+
+3	
+354j¿	
+
+79
+798015
+@
+28:
+282920 *
+1 (26:3B
+	
+9
+21
+
+
+11
+30
+
+57
+575815
+B
+91<
+919245 *
+1£ £(26:3B
+	
+9
+10
+
+
+11
+93
+
+67
+676815
+
+47
+474815
+
+61
+616215
+
+26
+262715
+@
+52:
+525345 *
+1v v(26:3B
+	
+9
+21
+
+
+11
+73
+
+63
+636415
+
+94
+949515
+@
+43:
+434445 *
+1 (26:3B
+	
+9
+10
+
+
+11
+46
+B
+76<
+767745 *
+1… …(26:3B
+	
+9
+10
+
+
+11
+78
+B
+96<
+969745 *
+1³ ³(26:3B
+	
+9
+10
+
+
+11
+98
+B
+81<
+818245 *
+1‰ ‰(26:3B
+	
+9
+10
+
+
+11
+83
+
+13
+131415
+
+36
+363715
+
+31
+313215
+
+59
+596015
+
+65
+656615
+
+74
+747515
+
+89
+899015
+
+69
+697015
+9
+64
+678 *
+1 ( :3B
+	
+9
+10
+
+
+11
+12
+
+41
+414215
+@
+18:
+181920 *
+1 (26:3B
+	
+9
+21
+
+
+11
+22
+@
+38:
+383920 *
+1 (26:3B
+	
+9
+21
+
+
+11
+40
+
+55
+555615
+
+71
+717215
+
+87
+878815
+@
+33:
+333420 *
+1 (26:3B
+	
+9
+21
+
+
+11
+35
+
+23
+232415
+B
+84<
+848545 *
+1œ œ(26:3B
+	
+9
+10
+
+
+11
+86r¿
+
+61316*
+1 (
+
+61317*
+1 (	
+
+182325*
+1 ("
+
+182616*
+1 (
+
+182617*
+1 (
+
+182317*
+1 ("
+
+182317*
+1# (8
+
+283125*
+1 (-
+
+282616*
+1 (
+
+282617*
+1 (
+
+283117*
+1 (-
+
+283117*
+1. (N
+
+333625*
+1 (
+
+332616*
+1 (
+
+332617*
+1 (
+
+333617*
+1 (
+
+333617*
+1  (2
+
+384125*
+1 (%
+
+382616*
+1 (
+
+382617*
+1 (
+
+384117*
+1 (%
+
+384117*
+1& (>
+
+434749*
+1 (
+
+434750*
+10 (A
+
+434717*
+1 (
+
+434725*
+1B (M
+
+434717*
+10 (A
+
+43651*
+1	 ( 
+
+435254*
+1	 ( 
+
+435517*
+1! !(
+
+435517*
+1# #($
+
+433651*
+1#9 #(K
+
+435754*
+1#L #(U
+
+433351*
+1#9 #(K
+
+433617*
+1#9 #(K
+
+433351*
+1#9 #(K
+
+435549*
+1' '(+
+
+435917*
+13 3(.
+
+433151*
+13> 3(^
+
+436154*
+14 4(`
+
+432851*
+13> 3(^
+
+433117*
+13> 3(^
+
+432851*
+13> 3(^
+
+434725*
+1< <(+
+
+434717*
+1<	 <(
+
+434749*
+1<. <(C
+
+436351*
+1<. <(C
+
+436554*
+1<D <(H
+
+431851*
+1<. <(C
+
+432317*
+1<. <(C
+
+431851*
+1<. <(C
+
+435917*
+1= =(*
+
+435525*
+1K K(%
+
+435517*
+1K K(
+
+435925*
+1L* L(5
+
+435917*
+1L L()
+
+435954*
+1L< L(X
+
+436751*
+1V' V(2
+
+436751*
+1W W()
+
+436751*
+1X X()
+
+436951*
+1p	 p()
+
+437154*
+1p* p(1
+
+432851*
+1p	 p()
+
+433117*
+1p	 p()
+
+432851*
+1p	 p()
+
+434749*
+1s s(%
+
+436351*
+1s s(%
+
+436554*
+1s& s(*
+
+431851*
+1s s(%
+
+432317*
+1s s(%
+
+431851*
+1s s(%
+
+524717*
+1w w(
+
+522351*
+1w0 w(E
+
+527454*
+1wF w(m
+
+521851*
+1w0 w(E
+
+522317*
+1w0 w(E
+
+521851*
+1w0 w(E
+
+524717*
+1x< x(M
+
+764717*
+1… …("
+
+766951*
+1† †(%
+
+767954*
+1†& †(-
+
+761851*
+1† †(%
+
+762317*
+1† †(%
+
+761851*
+1† †(%
+
+814717*
+1’ ’(#
+
+812351*
+1’4 ’(I
+
+817454*
+1’J ’(q
+
+811851*
+1’4 ’(I
+
+812317*
+1’4 ’(I
+
+811851*
+1’4 ’(I
+
+814717*
+1“; “(L
+
+846351*
+1 (#
+
+848754*
+1$ (.
+
+841851*
+1 (#
+
+842317*
+1 (#
+
+841851*
+1 (#
+
+846351*
+1 	  (
+
+848954*
+1   ()
+
+841851*
+1 	  (
+
+842317*
+1 	  (
+
+841851*
+1 	  (
+
+914717*
+1¤ ¤(
+
+912351*
+1¤0 ¤(E
+
+919454*
+1¤F ¤(b
+
+911851*
+1¤0 ¤(E
+
+912317*
+1¤0 ¤(E
+
+911851*
+1¤0 ¤(E
+
+914725*
+1§  §(#
+
+914717*
+1§ §(
+
+964717*
+1´ ´(
+
+966951*
+1´0 ´(E
+
+967954*
+1´F ´(M
+
+961851*
+1´0 ´(E
+
+962317*
+1´0 ´(E
+
+961851*
+1´0 ´(E
+
+964725*
+1¶ ¶(
+
+964725*
+1»  »(#
+
+964717*
+1» »(

@@ -1,0 +1,368 @@
+
+1.0com.example:demoJavaFrontend"1752050933097*java2.BÈ
+C
+>src/main/java/com/example/demo/entities/ReservationEntity.java2
+
+package4
+
+com.example.demo.entities5
+0
++com.example.demo.entities.ReservationEntity7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+ReservationEntity12
+ 
+jakarta.persistence.Entity14
+
+unknown15
+
+annotated by16
+
+
+uses17
+
+jakarta.persistence.Table19
+
+lombok.Data21
+
+lombok.NoArgsConstructor23
+
+lombok.AllArgsConstructor25
+
+lombok.Builder27
+4
+.com.example.demo.entities.ReservationEntity.id29
+
+field30
+
+private31
+
+id32
+
+jakarta.persistence.Id34
+(
+"jakarta.persistence.GeneratedValue36
+(
+"jakarta.persistence.GenerationType38
+1
++jakarta.persistence.GenerationType.IDENTITY40
+
+
+references41
+A
+;com.example.demo.entities.ReservationEntity.reservationDate43
+
+reservationDate44
+ 
+jakarta.persistence.Column46
+A
+;com.example.demo.entities.ReservationEntity.reservationTime48
+
+reservationTime49
+@
+:com.example.demo.entities.ReservationEntity.numberOfPeople51
+
+numberOfPeople52
+;
+5com.example.demo.entities.ReservationEntity.trackTime54
+
+	trackTime55
+<
+6com.example.demo.entities.ReservationEntity.totalPrice57
+
+
+totalPrice58
+>
+8com.example.demo.entities.ReservationEntity.participants60
+
+participants61
+#
+jakarta.persistence.OneToMany63
+%
+jakarta.persistence.CascadeType65
+)
+#jakarta.persistence.CascadeType.ALL67
+#
+jakarta.persistence.FetchType69
+(
+"jakarta.persistence.FetchType.LAZY71
+;
+5com.fasterxml.jackson.annotation.JsonManagedReference73
+<
+6com.example.demo.entities.ReservationParticipantEntity75J
+
+1
+12Z
+
+3	
+354jñ
+
+13
+131415
+9
+64
+678 *
+1 (:3B
+	
+9
+10
+
+
+11
+12
+@
+42:
+424330 *
+1 (26:3B
+	
+9
+31
+
+
+11
+44
+
+62
+626315
+
+37
+373815
+
+18
+181915
+@
+53:
+535430 *
+1   (26:3B
+	
+9
+31
+
+
+11
+55
+@
+56:
+565730 *
+1# #(26:3B
+	
+9
+31
+
+
+11
+58
+
+66
+666715
+@
+28:
+282930 *
+1 (26:3B
+	
+9
+31
+
+
+11
+32
+
+74
+747515
+
+68
+686915
+
+33
+333415
+
+64
+646515
+
+35
+353615
+
+39
+394015
+
+70
+707115
+
+45
+454615
+@
+47:
+474830 *
+1 (26:3B
+	
+9
+31
+
+
+11
+49
+@
+59:
+596030 *
+1& &(26:3B
+	
+9
+31
+
+
+11
+61
+
+26
+262715
+
+20
+202115
+
+72
+727315
+
+24
+242515
+
+22
+222315
+@
+50:
+505130 *
+1 (26:3B
+	
+9
+31
+
+
+11
+52r¬
+
+61316*
+1 (
+
+61317*
+1 (
+
+61816*
+1 (
+
+61817*
+1 (
+
+62016*
+1 (
+
+62017*
+1 (
+
+62216*
+1 (
+
+62217*
+1 (
+
+62416*
+1 (
+
+62417*
+1 (
+
+62616*
+1 (
+
+62617*
+1 (	
+
+283316*
+1 (
+
+283317*
+1 (
+
+283516*
+1 (
+
+283517*
+1 (
+
+283717*
+1  (.
+
+283717*
+1/ (7
+
+283941*
+1/ (7
+
+424516*
+1 (
+
+424517*
+1 (
+
+474516*
+1 (
+
+474517*
+1 (
+
+504516*
+1 (
+
+504517*
+1 (
+
+534516*
+1   (
+
+534517*
+1   (
+
+564516*
+1# #(
+
+564517*
+1# #(
+
+596216*
+1& &(
+
+596217*
+1& &(
+
+596417*
+1&4 &(?
+
+596417*
+1&@ &(C
+
+596641*
+1&@ &(C
+
+596817*
+1&M &(V
+
+596817*
+1&W &([
+
+597041*
+1&W &([
+
+597216*
+1' '(
+
+597217*
+1' '(
+
+597417*
+1( ((.

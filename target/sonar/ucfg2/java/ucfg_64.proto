@@ -1,0 +1,53 @@
+
+Tcom.example.demo.services.CustomerServices#getFrequencyCategory(I)Ljava/lang/String;
+…C:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/services/CustomerServices.java4 4(&"7*&
+27* 7(3"
+7# 7(4	
+Regular*w
+37 7(`
+^
+7 7(!
+%2boolean"	__compare*
+7 7(
+>=*
+7 7(
+""*
+7  7(!2*
+2
+1*'
+46* 6(4"
+6# 6(5
+
+Frequent*w
+56 6(`
+^
+6 6(!
+%1boolean"	__compare*
+6 6(
+>=*
+6 6(
+""*
+6  6(!2*
+3
+4*,
+65% 5(4"
+5 5(5
+Very Frequent*w
+75 5(`
+^
+5 5(
+%0boolean"	__compare*
+5 5(
+>=*
+5 5(
+""*
+5 5(2*
+5
+6*+
+18 8(""
+8 8(#
+Not Frequent: 
+
+__unknown_file (
+""B.,
+*com.example.demo.services.CustomerServicesH

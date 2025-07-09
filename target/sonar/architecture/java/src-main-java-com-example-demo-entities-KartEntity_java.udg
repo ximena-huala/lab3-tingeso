@@ -1,0 +1,236 @@
+
+1.0com.example:demoJavaFrontend"1752050931514*java2.Bª
+<
+7src/main/java/com/example/demo/entities/KartEntity.java2
+
+package4
+
+com.example.demo.entities5
+)
+$com.example.demo.entities.KartEntity7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+
+KartEntity12
+ 
+jakarta.persistence.Entity14
+
+unknown15
+
+annotated by16
+
+
+uses17
+
+jakarta.persistence.Table19
+
+lombok.Data21
+
+lombok.Builder23
+
+lombok.NoArgsConstructor25
+
+lombok.AllArgsConstructor27
+-
+'com.example.demo.entities.KartEntity.id29
+
+field30
+
+private31
+
+id32
+
+jakarta.persistence.Id34
+(
+"jakarta.persistence.GeneratedValue36
+(
+"jakarta.persistence.GenerationType38
+1
++jakarta.persistence.GenerationType.IDENTITY40
+
+
+references41
+0
+*com.example.demo.entities.KartEntity.model43
+
+model44
+/
+)com.example.demo.entities.KartEntity.code46
+
+
+code47
+ 
+jakarta.persistence.Column49
+1
++com.example.demo.entities.KartEntity.status51
+
+status52J
+
+1
+12Z
+
+3	
+354jŸ
+@
+45:
+454630 *
+1 (26:3B
+	
+9
+31
+
+
+11
+47
+
+13
+131415
+9
+64
+678 *
+1 (:3B
+	
+9
+10
+
+
+11
+12
+
+33
+333415
+
+35
+353615
+
+39
+394015
+@
+28:
+282930 *
+1 (26:3B
+	
+9
+31
+
+
+11
+32
+
+37
+373815
+
+18
+181915
+@
+42:
+424330 *
+1 (26:3B
+	
+9
+31
+
+
+11
+44
+
+48
+484915
+
+22
+222315
+@
+50:
+505130 *
+1 (26:3B
+	
+9
+31
+
+
+11
+52
+
+20
+202115
+
+26
+262715
+
+24
+242515r«
+
+61316*
+1
+ 
+(
+
+61317*
+1
+ 
+(
+
+61816*
+1 (
+
+61817*
+1 (
+
+62016*
+1 (
+
+62017*
+1 (
+
+62216*
+1 (
+
+62217*
+1 (	
+
+62416*
+1 (
+
+62417*
+1 (
+
+62616*
+1 (
+
+62617*
+1 (
+
+283316*
+1 (
+
+283317*
+1 (
+
+283516*
+1 (
+
+283517*
+1 (
+
+283717*
+1  (.
+
+283717*
+1/ (7
+
+283941*
+1/ (7
+
+454816*
+1 (
+
+454817*
+1 (

@@ -1,0 +1,29 @@
+
+Lcom.example.demo.services.CustomerServices#deleteCustomer(Ljava/lang/Long;)Z
+…C:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/services/CustomerServices.java; ;(!"5*!
+4> >("
+> >(
+""*Þ
+5= =(¯
+¬
+= =(6
+%00com.example.demo.repositories.CustomerRepository"__id*b
+
+__unknown_file (F*D,
+*com.example.demo.services.CustomerServices"
+customerRepository—”
+= =(-
+
+%1void"Rorg.springframework.data.repository.CrudRepository#deleteById(Ljava/lang/Object;)V*T
+
+__unknown_file (8
+6
+%00com.example.demo.repositories.CustomerRepository*2
+
+__unknown_file (
+
+idjava.lang.Long2deleteById(Ljava/lang/Object;)*
+4: 
+;" ;()
+idjava.lang.LongB.,
+*com.example.demo.services.CustomerServicesHX`

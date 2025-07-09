@@ -1,0 +1,5 @@
+com\example\demo\controllers\TariffDiscountControllerTest.class
+com\example\demo\repositories\KartRepositoryTest.class
+com\example\demo\services\TariffDiscountServiceTest.class
+com\example\demo\services\KartServicesTest.class
+com\example\demo\repositories\CustomerRepositoryTest.class

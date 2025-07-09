@@ -1,0 +1,197 @@
+
+|com.example.demo.services.ReservationService#getIncomeByTrackTime(Ljava/time/LocalDate;Ljava/time/LocalDate;)Ljava/util/Map;”
+‡C:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/services/ReservationService.java£, £(@"5*¹
+2
+§ §("l
+j
+
+§ §("2
+res+com.example.demo.entities.ReservationEntity"__id*"
+
+__unknown_file (
+""±
+®
+
+§ §("2
+res+com.example.demo.entities.ReservationEntity"
+__arrayGet*<
+
+__unknown_file ( 
+
+reservationsjava.util.List*"
+
+__unknown_file (
+""*
+3
+1*°
+3
+¨ ¨(S
+Q
+
+¨ ¨(.
+trackjava.lang.String"__id*"
+
+__unknown_file (
+""S
+Q
+
+© ©(F
+monthjava.lang.String"__id*"
+
+__unknown_file (
+""FD
+
+«* «(9
+%4java.util.LinkedHashMap"java.util.LinkedHashMapt
+r
+
+«& «(;
+%5"!java.util.LinkedHashMap#<init>()V*;
+
+__unknown_file (
+
+%4java.util.LinkedHashMap×Ô
+
+« «(<
+%6java.util.Map"Qjava.util.Map#putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*5
+
+__unknown_file (
+
+reportjava.util.Map*7
+
+__unknown_file (
+
+trackjava.lang.String*;
+
+__unknown_file (
+
+%4java.util.LinkedHashMap21putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)ž
+›
+
+¬+ ¬(<
+%7java.util.Map"__mapGet*5
+
+__unknown_file (
+
+reportjava.util.Map*7
+
+__unknown_file (
+
+trackjava.lang.Stringb
+`
+
+¬ ¬(=
+monthMapjava.util.Map"__id*1
+
+__unknown_file (
+
+%7java.util.Map£
+ 
+
+­  ­(A
+%8java.lang.Double"__mapGet*7
+
+__unknown_file (
+
+monthMapjava.util.Map*7
+
+__unknown_file (
+
+monthjava.lang.Stringt
+r
+
+­  ­(W
+%9"__calculate*
+
+­B ­(C
++*&
+
+­  ­(A
+
+%8java.lang.Double*
+
+­D ­(W
+""¶
+³
+
+­ ­(X
+%10"__mapSet*7
+
+__unknown_file (
+
+monthMapjava.util.Map*7
+
+__unknown_file (
+
+monthjava.lang.String*"
+
+__unknown_file (
+
+%9*
+2*¼
+5
+¤/ ¤(D¹
+¶
+
+¤/ ¤(D9
+%03com.example.demo.repositories.ReservationRepository"__id*g
+
+__unknown_file (K*I.
+,com.example.demo.services.ReservationService"
+reservationRepositoryÕÒ
+
+¤/ ¤(u
+%1java.util.List"Œcom.example.demo.repositories.ReservationRepository#findByReservationDateBetween(Ljava/time/LocalDate;Ljava/time/LocalDate;)Ljava/util/List;*W
+
+__unknown_file (;
+9
+%03com.example.demo.repositories.ReservationRepository*>
+
+__unknown_file ("
+ 
+	startDatejava.time.LocalDate*<
+
+__unknown_file ( 
+
+endDatejava.time.LocalDate2HfindByReservationDateBetween(Ljava/time/LocalDate;Ljava/time/LocalDate;)h
+f
+
+¤ ¤(v
+reservationsjava.util.List"__id*2
+
+__unknown_file (
+
+%1java.util.ListFD
+
+¥6 ¥(E
+%2java.util.LinkedHashMap"java.util.LinkedHashMapt
+r
+
+¥2 ¥(G
+%3"!java.util.LinkedHashMap#<init>()V*;
+
+__unknown_file (
+
+%2java.util.LinkedHashMapj
+h
+
+¥ ¥(H
+reportjava.util.Map"__id*;
+
+__unknown_file (
+
+%2java.util.LinkedHashMap*
+2*8
+1
+° °("'
+
+° °(
+
+reportjava.util.Map:.
+
+£A £(U 
+	startDatejava.time.LocalDate:,
+
+£V £(g
+endDatejava.time.LocalDateB0.
+,com.example.demo.services.ReservationServiceH

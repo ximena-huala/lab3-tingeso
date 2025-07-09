@@ -1,0 +1,136 @@
+
+1.0com.example:demoJavaFrontend"1752050931756*java2.BÄ
+D
+?src/main/java/com/example/demo/repositories/KartRepository.java2
+
+package4
+"
+com.example.demo.repositories5
+1
+,com.example.demo.repositories.KartRepository7
+
+	interface8
+
+access9
+
+public10
+
+simple name11
+
+KartRepository12
+;
+5org.springframework.data.jpa.repository.JpaRepository14
+
+unknown15
+
+
+implements16
+/
+)org.springframework.stereotype.Repository18
+
+annotated by19
+
+
+uses20
+*
+$com.example.demo.entities.KartEntity22
+e
+_com.example.demo.repositories.KartRepository#findByCode(Ljava/lang/String;)Ljava/util/Optional;24
+
+method25
+
+
+findByCode26
+c
+]com.example.demo.repositories.KartRepository#findByStatus(Ljava/lang/String;)Ljava/util/List;28
+
+findByStatus29
+T
+Ncom.example.demo.repositories.KartRepository#existsByCode(Ljava/lang/String;)Z31
+
+existsByCode32J
+
+1
+12Z
+
+3	
+354j½
+@
+30:
+303125 *
+1 (26:3B
+	
+9
+10
+
+
+11
+32
+9
+64
+678 *
+1 ( :3B
+	
+9
+10
+
+
+11
+12
+
+21
+212215
+@
+23:
+232425 *
+1 (26:3B
+	
+9
+10
+
+
+11
+26
+
+17
+171815
+
+13
+131415
+@
+27:
+272825 *
+1 (	26:3B
+	
+9
+10
+
+
+11
+29r¸
+
+61316*
+1) (6
+
+61719*
+1
+ 
+(
+
+61720*
+1
+ 
+(
+
+61320*
+1) (6
+
+62120*
+17 (A
+
+232120*
+1 (
+
+272120*
+1
+ (

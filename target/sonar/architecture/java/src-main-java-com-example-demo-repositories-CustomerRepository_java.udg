@@ -1,0 +1,168 @@
+
+1.0com.example:demoJavaFrontend"1752050933735*java2.Bý
+H
+Csrc/main/java/com/example/demo/repositories/CustomerRepository.java2
+
+package4
+"
+com.example.demo.repositories5
+5
+0com.example.demo.repositories.CustomerRepository7
+
+	interface8
+
+access9
+
+public10
+
+simple name11
+
+CustomerRepository12
+;
+5org.springframework.data.jpa.repository.JpaRepository14
+
+unknown15
+
+
+implements16
+/
+)org.springframework.stereotype.Repository18
+
+annotated by19
+
+
+uses20
+.
+(com.example.demo.entities.CustomerEntity22
+j
+dcom.example.demo.repositories.CustomerRepository#findByEmail(Ljava/lang/String;)Ljava/util/Optional;24
+
+method25
+
+findByEmail26
+h
+bcom.example.demo.repositories.CustomerRepository#findByRut(Ljava/lang/String;)Ljava/util/Optional;28
+
+	findByRut29
+n
+hcom.example.demo.repositories.CustomerRepository#findByRutContaining(Ljava/lang/String;)Ljava/util/List;31
+
+findByRutContaining32
+i
+ccom.example.demo.repositories.CustomerRepository#existsByRut(Ljava/lang/String;)Ljava/lang/Boolean;34
+
+existsByRut35
+k
+ecom.example.demo.repositories.CustomerRepository#existsByEmail(Ljava/lang/String;)Ljava/lang/Boolean;37
+
+existsByEmail38J
+
+1
+12Z
+
+3	
+354jÁ
+
+21
+212215
+@
+27:
+272825 *
+1 (26:3B
+	
+9
+10
+
+
+11
+29
+@
+30:
+303125 *
+1 (	26:3B
+	
+9
+10
+
+
+11
+32
+9
+64
+678 *
+1 ($:3B
+	
+9
+10
+
+
+11
+12
+@
+23:
+232425 *
+1 (26:3B
+	
+9
+10
+
+
+11
+26
+@
+36:
+363725 *
+1 (26:3B
+	
+9
+10
+
+
+11
+38
+
+17
+171815
+
+13
+131415
+@
+33:
+333425 *
+1 (26:3B
+	
+9
+10
+
+
+11
+35rÓ
+
+61316*
+1- (:
+
+61719*
+1
+ 
+(
+
+61720*
+1
+ 
+(
+
+61320*
+1- (:
+
+62120*
+1; (I
+
+232120*
+1 (
+
+272120*
+1 (
+
+302120*
+1
+ (

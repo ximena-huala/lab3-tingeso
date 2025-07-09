@@ -1,0 +1,86 @@
+
+}com.example.demo.controllers.CustomerController#getCustomersByRuts(Ljava/util/List;)Lorg/springframework/http/ResponseEntity;•
+ŠC:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/controllers/CustomerController.java00 0(B"startingBlock*£
+startingBlock0B 0(bª
+§
+0C 0(O
+%6"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*4
+
+__unknown_file (
+
+rutsjava.util.ListV
+T
+0] 0(a
+rutsjava.util.List"__annotation*"
+
+__unknown_file (
+
+%6*
+1*Ä
+11) 1(-¤¡
+1) 1(6
+%0java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*4
+
+__unknown_file (
+
+rutsjava.util.List2stream()†ƒ
+1) 2(4
+%1java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%0java.util.stream.Stream*"
+
+__unknown_file (
+""2"map(Ljava/util/function/Function;)Ž‹
+1) 3((
+%2java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%1java.util.stream.Stream*"
+
+__unknown_file (
+""2&filter(Ljava/util/function/Predicate;)†ƒ
+1) 4(
+%3java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%2java.util.stream.Stream*"
+
+__unknown_file (
+""2"map(Ljava/util/function/Function;)œ™
+1) 5(
+%4java.util.List"0java.util.stream.Stream#toList()Ljava/util/List;*;
+
+__unknown_file (
+
+%3java.util.stream.Stream2toList()c
+a
+1 5(
+	customersjava.util.List"__id*2
+
+__unknown_file (
+
+%4java.util.List©
+¦
+6 6(+-
+%5'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*9
+
+__unknown_file (
+
+	customersjava.util.List";
+6 6(,/
+-
+%5'org.springframework.http.ResponseEntity:"
+0C 0(a
+rutsjava.util.ListB31
+/com.example.demo.controllers.CustomerControllerH

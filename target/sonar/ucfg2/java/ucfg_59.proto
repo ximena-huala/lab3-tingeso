@@ -1,0 +1,26 @@
+
+Mcom.example.demo.services.CustomerServices#existsByEmail(Ljava/lang/String;)Zê
+ÖC:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/services/CustomerServices.java ( "1*ï
+1 (!Ø
+¨
+ (!6
+%00com.example.demo.repositories.CustomerRepository"__id*b
+
+__unknown_file (F*D,
+*com.example.demo.services.CustomerServices"
+customerRepositoryøº
+ (6
+%1java.lang.Boolean"ecom.example.demo.repositories.CustomerRepository#existsByEmail(Ljava/lang/String;)Ljava/lang/Boolean;*T
+
+__unknown_file (8
+6
+%00com.example.demo.repositories.CustomerRepository*7
+
+__unknown_file (
+
+emailjava.lang.String2!existsByEmail(Ljava/lang/String;)"
+ (7
+"":%
+! (-
+emailjava.lang.StringB.,
+*com.example.demo.services.CustomerServicesHX

@@ -1,0 +1,26 @@
+
+Hcom.example.demo.services.KartServices#existsByCode(Ljava/lang/String;)ZŒ
+C:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/services/KartServices.java   ("1*â
+1! !(£
+ 
+! !(2
+%0,com.example.demo.repositories.KartRepository"__id*Z
+
+__unknown_file (>*<(
+&com.example.demo.services.KartServices"
+kartRepository˜•
+! !(0
+%1boolean"Ncom.example.demo.repositories.KartRepository#existsByCode(Ljava/lang/String;)Z*P
+
+__unknown_file (4
+2
+%0,com.example.demo.repositories.KartRepository*6
+
+__unknown_file (
+
+codejava.lang.String2 existsByCode(Ljava/lang/String;)"
+! !(1
+"":$
+    (+
+codejava.lang.StringB*(
+&com.example.demo.services.KartServicesHX

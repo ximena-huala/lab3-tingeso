@@ -1,0 +1,341 @@
+
+com.example.demo.services.ReservationService#getRevenueByPeopleCount(Ljava/time/LocalDate;Ljava/time/LocalDate;)Ljava/util/Map;”
+‡C:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/services/ReservationService.java³, ³(C"12*º
+2
+» »("l
+j
+
+» »("2
+res+com.example.demo.entities.ReservationEntity"__id*"
+
+__unknown_file (
+""±
+®
+
+» »("2
+res+com.example.demo.entities.ReservationEntity"
+__arrayGet*<
+
+__unknown_file ( 
+
+reservationsjava.util.List*"
+
+__unknown_file (
+""*
+10
+1*
+
+3
+Æ Æ(¥
+¢
+
+Æ* Æ(D"
+%12java.util.function.Function"__declareFunction*]
+
+__unknown_file (A?
+=__sonar_lambda_3$com.example.demo.services.ReservationServiceûø
+
+Æ Æ(E
+%15java.util.Map"`java.util.Map#computeIfAbsent(Ljava/lang/Object;Ljava/util/function/Function;)Ljava/lang/Object;*5
+
+__unknown_file (
+
+reportjava.util.Map*7
+
+__unknown_file (
+
+monthjava.lang.String*@
+
+__unknown_file ($
+"
+%12java.util.function.Function2@computeIfAbsent(Ljava/lang/Object;Ljava/util/function/Function;)Ÿ
+œ
+
+Ç, Ç(=
+%16java.util.Map"__mapGet*5
+
+__unknown_file (
+
+reportjava.util.Map*7
+
+__unknown_file (
+
+monthjava.lang.Stringd
+b
+
+Ç Ç(>
+	monthDatajava.util.Map"__id*2
+
+__unknown_file (
+
+%16java.util.Map¥
+¢
+
+È! È(C
+%17java.lang.Double"__mapGet*8
+
+__unknown_file (
+
+	monthDatajava.util.Map*7
+
+__unknown_file (
+
+groupjava.lang.Stringv
+t
+
+È! È(Y
+%18"__calculate*
+
+ÈD È(E
++*'
+
+È! È(C
+
+%17java.lang.Double*
+
+ÈF È(Y
+""¸
+µ
+
+È È(Z
+%19"__mapSet*8
+
+__unknown_file (
+
+	monthDatajava.util.Map*7
+
+__unknown_file (
+
+groupjava.lang.String*#
+
+__unknown_file (
+
+%18*
+2*u
+4
+Ä Ä()_
+]
+
+Ä Ä()
+groupjava.lang.String"__id*.
+
+__unknown_file (
+11-15 personas*
+3*t
+5
+Ã+ Ã(:^
+\
+
+Ã# Ã(:
+groupjava.lang.String"__id*-
+
+__unknown_file (
+6-10 personas*
+3*‚
+6
+Ã Ã(i
+g
+
+Ã Ã(!
+%11boolean"	__compare*
+
+Ã Ã(
+<=*
+
+Ã Ã(
+""*
+
+Ã Ã(!2
+*
+4
+5*s
+7
+Â* Â(8]
+[
+
+Â" Â(8
+groupjava.lang.String"__id*,
+
+__unknown_file (
+3-5 personas*
+3*‚
+8
+Â Â(i
+g
+
+Â Â( 
+%10boolean"	__compare*
+
+Â Â(
+<=*
+
+Â Â(
+""*
+
+Â Â( 2*
+6
+7*s
+9
+Á% Á(3]
+[
+
+Á Á(3
+groupjava.lang.String"__id*,
+
+__unknown_file (
+1-2 personas*
+3*
+10
+¼ ¼(b
+`
+
+¼ ½(_
+%8"__calculate*
+
+½ ½(
++*
+
+¼ ¼(g
+""*
+
+½ ½(_
+""S
+Q
+
+¼ ½(`
+monthjava.lang.String"__id*"
+
+__unknown_file (
+
+%8S
+Q
+
+¿ ¿(
+groupjava.lang.String"__id*"
+
+__unknown_file (
+""h
+f
+
+Á Á(
+%9boolean"	__compare*
+
+Á Á(
+<=*
+
+Á Á(
+""*
+
+Á Á(2*
+8
+9*ä
+12
+´/ ´(D¹
+¶
+
+´/ ´(D9
+%03com.example.demo.repositories.ReservationRepository"__id*g
+
+__unknown_file (K*I.
+,com.example.demo.services.ReservationService"
+reservationRepositoryÛØ
+
+´/ ´(N
+%1java.util.List"Porg.springframework.data.repository.ListCrudRepository#findAll()Ljava/util/List;*W
+
+__unknown_file (;
+9
+%03com.example.demo.repositories.ReservationRepository2	findAll()¤¡
+
+´/ µ(
+%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*2
+
+__unknown_file (
+
+%1java.util.List2stream()¥
+¢
+
+¶ ¶(l"
+%3java.util.function.Predicate"__declareFunction*]
+
+__unknown_file (A?
+=__sonar_lambda_2$com.example.demo.services.ReservationServiceŽ
+‹
+
+__unknown_file (-
+"
+%3java.util.function.Predicate"
+start"__id*:
+
+__unknown_file (
+
+startjava.time.LocalDateŠ
+‡
+
+__unknown_file (+
+"
+%3java.util.function.Predicate"
+end"__id*8
+
+__unknown_file (
+
+endjava.time.LocalDate®«
+
+´/ ¶(m
+%4java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%2java.util.stream.Stream*@
+
+__unknown_file ($
+"
+%3java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)ž›
+
+´/ ·(
+%5java.util.List"0java.util.stream.Stream#toList()Ljava/util/List;*;
+
+__unknown_file (
+
+%4java.util.stream.Stream2toList()h
+f
+
+´ ·(
+reservationsjava.util.List"__id*2
+
+__unknown_file (
+
+%5java.util.List:8
+
+¹6 ¹(?
+%6java.util.TreeMap"java.util.TreeMaph
+f
+
+¹2 ¹(A
+%7"java.util.TreeMap#<init>()V*5
+
+__unknown_file (
+
+%6java.util.TreeMapd
+b
+
+¹ ¹(B
+reportjava.util.Map"__id*5
+
+__unknown_file (
+
+%6java.util.TreeMap*
+2*8
+1
+Ë Ë("'
+
+Ë Ë(
+
+reportjava.util.Map:*
+
+³D ³(T
+startjava.time.LocalDate:(
+
+³U ³(b
+endjava.time.LocalDateB0.
+,com.example.demo.services.ReservationServiceH

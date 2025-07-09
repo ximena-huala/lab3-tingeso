@@ -1,0 +1,25 @@
+
+Qcom.example.demo.services.ReservationService#getAllReservations()Ljava/util/List;”
+‡C:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/services/ReservationService.java…# …(5"1*Ï
+1
+† †($¹
+¶
+
+† †($9
+%03com.example.demo.repositories.ReservationRepository"__id*g
+
+__unknown_file (K*I.
+,com.example.demo.services.ReservationService"
+reservationRepositoryÛØ
+
+† †(.
+%1java.util.List"Porg.springframework.data.repository.ListCrudRepository#findAll()Ljava/util/List;*W
+
+__unknown_file (;
+9
+%03com.example.demo.repositories.ReservationRepository2	findAll()"$
+
+† †(/
+
+%1java.util.ListB0.
+,com.example.demo.services.ReservationServiceH

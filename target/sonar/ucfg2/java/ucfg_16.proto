@@ -1,0 +1,29 @@
+
+Dcom.example.demo.services.KartServices#deleteKart(Ljava/lang/Long;)ZŒ
+C:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/services/KartServices.java, ,("5*!
+4/ /("
+/ /(
+""*Î
+5. .(£
+ 
+. .(2
+%0,com.example.demo.repositories.KartRepository"__id*Z
+
+__unknown_file (>*<(
+&com.example.demo.services.KartServices"
+kartRepository“
+. .()
+
+%1void"Rorg.springframework.data.repository.CrudRepository#deleteById(Ljava/lang/Object;)V*P
+
+__unknown_file (4
+2
+%0,com.example.demo.repositories.KartRepository*2
+
+__unknown_file (
+
+idjava.lang.Long2deleteById(Ljava/lang/Object;)*
+4: 
+, ,(%
+idjava.lang.LongB*(
+&com.example.demo.services.KartServicesHX`

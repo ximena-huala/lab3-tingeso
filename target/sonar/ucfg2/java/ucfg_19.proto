@@ -1,0 +1,129 @@
+
+ócom.example.demo.controllers.TariffDiscountController#create(Lcom/example/demo/entities/TariffDiscountEntity;)Lorg/springframework/http/ResponseEntity;õ
+êC:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/controllers/TariffDiscountController.java0 (6"startingBlock*¡
+
+startingBlock6 (`í
+è
+
+__unknown_file (
+%3"__id*g
+
+__unknown_file (K*I
+8
+entity.com.example.demo.entities.TariffDiscountEntity"
+descriptionè
+å
+
+__unknown_file (
+%4"__id*d
+
+__unknown_file (H*F
+8
+entity.com.example.demo.entities.TariffDiscountEntity"
+
+durationã
+à
+
+__unknown_file (
+%5"__id*`
+
+__unknown_file (D*B
+8
+entity.com.example.demo.entities.TariffDiscountEntity"
+typeò
+ï
+7 (C
+%6"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%3ä
+á
+Y (_I
+8
+entity.com.example.demo.entities.TariffDiscountEntity"
+description"__annotation*"
+
+__unknown_file (
+
+%6ò
+ï
+7 (C
+%7"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%5É
+Ä
+Y (_B
+8
+entity.com.example.demo.entities.TariffDiscountEntity"
+type"__annotation*"
+
+__unknown_file (
+
+%7ò
+ï
+7 (C
+%8"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%4á
+Ñ
+Y (_F
+8
+entity.com.example.demo.entities.TariffDiscountEntity"
+
+duration"__annotation*"
+
+__unknown_file (
+
+%8*
+1*Ñ
+1 (Æ
+´
+! ((5
+%0/com.example.demo.services.TariffDiscountService"__id*b
+
+__unknown_file (F*D7
+5com.example.demo.controllers.TariffDiscountController"	
+service¡æ
+! (54
+%1.com.example.demo.entities.TariffDiscountEntity"ñcom.example.demo.services.TariffDiscountService#save(Lcom/example/demo/entities/TariffDiscountEntity;)Lcom/example/demo/entities/TariffDiscountEntity;*S
+
+__unknown_file (7
+5
+%0/com.example.demo.services.TariffDiscountService*V
+
+__unknown_file (:
+8
+entity.com.example.demo.entities.TariffDiscountEntity26save(Lcom/example/demo/entities/TariffDiscountEntity;)¬
+ø
+ (6-
+%2'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*R
+
+__unknown_file (6
+4
+%1.com.example.demo.entities.TariffDiscountEntity";
+ (7/
+-
+%2'org.springframework.http.ResponseEntity:D
+7 (_8
+entity.com.example.demo.entities.TariffDiscountEntityB97
+5com.example.demo.controllers.TariffDiscountControllerH

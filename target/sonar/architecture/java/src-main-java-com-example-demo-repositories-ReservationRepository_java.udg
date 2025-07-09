@@ -1,0 +1,136 @@
+
+1.0com.example:demoJavaFrontend"1752050932932*java2.B£
+K
+Fsrc/main/java/com/example/demo/repositories/ReservationRepository.java2
+
+package4
+"
+com.example.demo.repositories5
+8
+3com.example.demo.repositories.ReservationRepository7
+
+	interface8
+
+access9
+
+public10
+
+simple name11
+
+ReservationRepository12
+;
+5org.springframework.data.jpa.repository.JpaRepository14
+
+unknown15
+
+
+implements16
+/
+)org.springframework.stereotype.Repository18
+
+annotated by19
+
+
+uses20
+1
++com.example.demo.entities.ReservationEntity22
+ž
+—com.example.demo.repositories.ReservationRepository#findByReservationDateAndReservationTime(Ljava/time/LocalDate;Ljava/time/LocalTime;)Ljava/util/List;24
+
+method25
+-
+'findByReservationDateAndReservationTime26
+v
+pcom.example.demo.repositories.ReservationRepository#findByReservationDate(Ljava/time/LocalDate;)Ljava/util/List;28
+
+findByReservationDate29
+“
+Œcom.example.demo.repositories.ReservationRepository#findByReservationDateBetween(Ljava/time/LocalDate;Ljava/time/LocalDate;)Ljava/util/List;31
+"
+findByReservationDateBetween32J
+
+1
+12Z
+
+3	
+354j½
+
+21
+212215
+@
+23:
+232425 *
+1 (	26:3B
+	
+9
+10
+
+
+11
+26
+9
+64
+678 *
+1 (':3B
+	
+9
+10
+
+
+11
+12
+
+17
+171815
+@
+30:
+303125 *
+1 (	26:3B
+	
+9
+10
+
+
+11
+32
+@
+27:
+272825 *
+1 (	26:3B
+	
+9
+10
+
+
+11
+29
+
+13
+131415rÓ
+
+61316*
+10 (=
+
+61719*
+1 (
+
+61720*
+1 (
+
+61320*
+10 (=
+
+62120*
+1> (O
+
+232120*
+1
+ (
+
+272120*
+1
+ (
+
+302120*
+1
+ (

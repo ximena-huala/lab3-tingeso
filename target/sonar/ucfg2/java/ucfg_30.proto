@@ -1,0 +1,57 @@
+
+ycom.example.demo.controllers.KartController#getKartsByStatus(Ljava/lang/String;)Lorg/springframework/http/ResponseEntity;‘
+†C:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/controllers/KartController.java+, +(<"startingBlock*¬
+startingBlock+< +(Y¯
+¬
++= +(J
+%3"
+__annotate*T
+
+__unknown_file (86
+4org.springframework.web.bind.annotation.PathVariable*8
+
+__unknown_file (
+
+statusjava.lang.StringZ
+X
++R +(X
+statusjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%3*
+1*À
+1, ,(Ÿ
+œ
+,! ,(,,
+%0&com.example.demo.services.KartServices"__id*\
+
+__unknown_file (@*>-
++com.example.demo.controllers.KartController"
+kartService¬©
+,! ,(E
+%1java.util.List"[com.example.demo.services.KartServices#getKartsByStatus(Ljava/lang/String;)Ljava/util/List;*J
+
+__unknown_file (.
+,
+%0&com.example.demo.services.KartServices*8
+
+__unknown_file (
+
+statusjava.lang.String2$getKartsByStatus(Ljava/lang/String;)¢
+Ÿ
+, ,(F-
+%2'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*2
+
+__unknown_file (
+
+%1java.util.List";
+, ,(G/
+-
+%2'org.springframework.http.ResponseEntity:&
++= +(X
+statusjava.lang.StringB/-
++com.example.demo.controllers.KartControllerH

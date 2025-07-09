@@ -1,0 +1,250 @@
+
+Scom.example.demo.services.ReportService#generateTrackTimeReport(III)Ljava/util/Map;ç
+ÇC:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/services/ReportService.java, (C"12*É
+3   (R
+P
+   (
+optionjava.lang.String"__id*"
+
+__unknown_file (
+""ó
+î
+   (
+optionjava.lang.String"
+__arrayGet*<
+
+__unknown_file ( 
+
+trackOptionsjava.util.List*"
+
+__unknown_file (
+""*
+4
+7*®
+4! !(+≠™
+! !(4
+%11java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*<
+
+__unknown_file ( 
+
+reservationsjava.util.List2stream()ü
+ú
+"  #(Y#
+%12java.util.function.Predicate"__declareFunction*X
+
+__unknown_file (<:
+8__sonar_lambda_1$com.example.demo.services.ReportServiceé
+ã
+
+__unknown_file (/
+#
+%12java.util.function.Predicate"
+option"__id*8
+
+__unknown_file (
+
+optionjava.lang.StringØ¨
+! #(Z
+%14java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*<
+
+__unknown_file ( 
+
+%11java.util.stream.Stream*A
+
+__unknown_file (%
+#
+%12java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)ïí
+! $(F
+%15"ijava.util.stream.Stream#mapToDouble(Ljava/util/function/ToDoubleFunction;)Ljava/util/stream/DoubleStream;*<
+
+__unknown_file ( 
+
+%14java.util.stream.Stream*"
+
+__unknown_file (
+""22mapToDouble(Ljava/util/function/ToDoubleFunction;)û
+õ
+& &("
+%16java.util.Map"__mapGet*5
+
+__unknown_file (
+
+reportjava.util.Map*8
+
+__unknown_file (
+
+optionjava.lang.String≈
+¬
+& &(8
+%17java.lang.Double"__mapSet*2
+
+__unknown_file (
+
+%16java.util.Map*;
+
+__unknown_file (
+
+	monthNamejava.lang.String*"
+
+__unknown_file (
+""*
+3*®
+6% (*°
+û
+% (;
+%7java.time.Month"&java.time.Month#of(I)Ljava/time/Month;*/
+
+__unknown_file ("
+java.time.Month*"
+
+__unknown_file (
+""ãà
+% (B
+%8java.lang.String"'java.lang.Enum#name()Ljava/lang/String;*3
+
+__unknown_file (
+
+%7java.time.Month2name()g
+e
+ (C
+	monthNamejava.lang.String"__id*4
+
+__unknown_file (
+
+%8java.lang.String≤
+Ø
+3 (H9
+%93com.example.demo.repositories.ReservationRepository"__id*b
+
+__unknown_file (F*D)
+'com.example.demo.services.ReportService"
+reservationRepository⁄◊
+3 (R
+%10java.util.List"Porg.springframework.data.repository.ListCrudRepository#findAll()Ljava/util/List;*W
+
+__unknown_file (;
+9
+%93com.example.demo.repositories.ReservationRepository2	findAll()g
+e
+ (S
+reservationsjava.util.List"__id*3
+
+__unknown_file (
+
+%10java.util.List*
+3*y
+7% (*b
+`
+% (6
+%6boolean"	__compare*
++ (-
+<=*
+% (*
+""*
+. (6
+""*
+6
+1*Ñ
+9 (R
+P
+ (
+optionjava.lang.String"__id*"
+
+__unknown_file (
+""ó
+î
+ (
+optionjava.lang.String"
+__arrayGet*<
+
+__unknown_file ( 
+
+trackOptionsjava.util.List*"
+
+__unknown_file (
+""*
+7
+10*™
+10 (DB
+# (2
+%3java.util.LinkedHashMap"java.util.LinkedHashMapr
+p
+ (4
+%4"!java.util.LinkedHashMap#<init>()V*;
+
+__unknown_file (
+
+%3java.util.LinkedHashMap⁄
+◊
+ (5
+%5java.util.Map"__mapSet*5
+
+__unknown_file (
+
+reportjava.util.Map*8
+
+__unknown_file (
+
+optionjava.lang.String*;
+
+__unknown_file (
+
+%3java.util.LinkedHashMap*
+9*π
+122 (GDB
+6 (E
+%0java.util.LinkedHashMap"java.util.LinkedHashMapr
+p
+2 (G
+%1"!java.util.LinkedHashMap#<init>()V*;
+
+__unknown_file (
+
+%0java.util.LinkedHashMaph
+f
+ (H
+reportjava.util.Map"__id*;
+
+__unknown_file (
+
+%0java.util.LinkedHashMapó
+î
+$ ([
+%2java.util.List"<java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;*0
+
+__unknown_file ("
+java.util.Arrays**
+
+__unknown_file (
+
+10 minutes**
+
+__unknown_file (
+
+15 minutes**
+
+__unknown_file (
+
+20 minutesf
+d
+ (\
+trackOptionsjava.util.List"__id*2
+
+__unknown_file (
+
+%2java.util.List*
+9*4
+1+ +("%
++ +(
+
+reportjava.util.Map: 
+
+__unknown_file (
+"": 
+
+__unknown_file (
+"": 
+
+__unknown_file (
+""B+)
+'com.example.demo.services.ReportServiceH

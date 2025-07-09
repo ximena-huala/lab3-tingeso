@@ -1,0 +1,126 @@
+
+…com.example.demo.controllers.KartController#saveKart(Lcom/example/demo/entities/KartEntity;)Lorg/springframework/http/ResponseEntity;‘
+†C:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/controllers/KartController.java& (."startingBlock*Þ	
+startingBlock. (L~
+|
+
+__unknown_file (
+%3"__id*T
+
+__unknown_file (8*6
+,
+kart$com.example.demo.entities.KartEntity"
+code
+}
+
+__unknown_file (
+%4"__id*U
+
+__unknown_file (9*7
+,
+kart$com.example.demo.entities.KartEntity"
+model€
+~
+
+__unknown_file (
+%5"__id*V
+
+__unknown_file (:*8
+,
+kart$com.example.demo.entities.KartEntity"
+status˜
+•
+/ (;
+%6"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%3v
+t
+G (K6
+,
+kart$com.example.demo.entities.KartEntity"
+code"__annotation*"
+
+__unknown_file (
+
+%6˜
+•
+/ (;
+%7"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%5x
+v
+G (K8
+,
+kart$com.example.demo.entities.KartEntity"
+status"__annotation*"
+
+__unknown_file (
+
+%7˜
+•
+/ (;
+%8"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.RequestBody*"
+
+__unknown_file (
+
+%4w
+u
+G (K7
+,
+kart$com.example.demo.entities.KartEntity"
+model"__annotation*"
+
+__unknown_file (
+
+%8*
+1*¬
+1 (Ÿ
+œ
+! (,,
+%0&com.example.demo.services.KartServices"__id*\
+
+__unknown_file (@*>-
++com.example.demo.controllers.KartController"
+kartService‚ÿ
+! (;*
+%1$com.example.demo.entities.KartEntity"}com.example.demo.services.KartServices#saveKart(Lcom/example/demo/entities/KartEntity;)Lcom/example/demo/entities/KartEntity;*J
+
+__unknown_file (.
+,
+%0&com.example.demo.services.KartServices*J
+
+__unknown_file (.
+,
+kart$com.example.demo.entities.KartEntity20saveKart(Lcom/example/demo/entities/KartEntity;)¸
+µ
+ (<-
+%2'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*H
+
+__unknown_file (,
+*
+%1$com.example.demo.entities.KartEntity";
+ (=/
+-
+%2'org.springframework.http.ResponseEntity:8
+/ (K,
+kart$com.example.demo.entities.KartEntityB/-
++com.example.demo.controllers.KartControllerH

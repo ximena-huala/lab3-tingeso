@@ -1,0 +1,39 @@
+
+Vcom.example.demo.controllers.ReportController#getReportByTrackTime(III)Ljava/util/Map;“
+ˆC:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/controllers/ReportController.java, (@"1*¨
+1 (¤
+¡
+ (-
+%0'com.example.demo.services.ReportService"__id*`
+
+__unknown_file (D*B/
+-com.example.demo.controllers.ReportController"
+reportServiceÎË
+ (P
+%1java.util.Map"Scom.example.demo.services.ReportService#generateTrackTimeReport(III)Ljava/util/Map;*K
+
+__unknown_file (/
+-
+%0'com.example.demo.services.ReportService*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2generateTrackTimeReport(III)"!
+ (Q
+
+%1java.util.Map: 
+
+__unknown_file (
+"": 
+
+__unknown_file (
+"": 
+
+__unknown_file (
+""B1/
+-com.example.demo.controllers.ReportControllerH

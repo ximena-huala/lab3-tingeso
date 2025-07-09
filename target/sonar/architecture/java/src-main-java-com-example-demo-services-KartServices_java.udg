@@ -1,0 +1,453 @@
+
+1.0com.example:demoJavaFrontend"1752050932521*java2.Bƒ
+>
+9src/main/java/com/example/demo/services/KartServices.java2
+
+package4
+
+com.example.demo.services5
++
+&com.example.demo.services.KartServices7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+KartServices12
+,
+&org.springframework.stereotype.Service14
+
+unknown15
+
+annotated by16
+
+
+uses17
+;
+5com.example.demo.services.KartServices.kartRepository19
+
+field20
+
+private21
+
+kartRepository22
+2
+,com.example.demo.repositories.KartRepository24
+
+is type25
+<
+6org.springframework.beans.factory.annotation.Autowired27
+ƒ
+}com.example.demo.services.KartServices#saveKart(Lcom/example/demo/entities/KartEntity;)Lcom/example/demo/entities/KartEntity;29
+
+method30
+
+saveKart31
+*
+$com.example.demo.entities.KartEntity33
+
+returns34
+
+	has param35
+8
+2org.springframework.data.repository.CrudRepository37
+
+
+references38
+c
+]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;40
+
+calls41
+J
+Dcom.example.demo.services.KartServices#getAllKarts()Ljava/util/List;43
+
+getAllKarts44
+<
+6org.springframework.data.repository.ListCrudRepository46
+V
+Porg.springframework.data.repository.ListCrudRepository#findAll()Ljava/util/List;48
+^
+Xcom.example.demo.services.KartServices#getKartById(Ljava/lang/Long;)Ljava/util/Optional;50
+
+getKartById51
+i
+corg.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;53
+b
+\com.example.demo.services.KartServices#getKartByCode(Ljava/lang/String;)Ljava/util/Optional;55
+
+getKartByCode56
+e
+_com.example.demo.repositories.KartRepository#findByCode(Ljava/lang/String;)Ljava/util/Optional;58
+N
+Hcom.example.demo.services.KartServices#existsByCode(Ljava/lang/String;)Z60
+
+existsByCode61
+T
+Ncom.example.demo.repositories.KartRepository#existsByCode(Ljava/lang/String;)Z63
+a
+[com.example.demo.services.KartServices#getKartsByStatus(Ljava/lang/String;)Ljava/util/List;65
+
+getKartsByStatus66
+c
+]com.example.demo.repositories.KartRepository#findByStatus(Ljava/lang/String;)Ljava/util/List;68
+…
+com.example.demo.services.KartServices#updateKart(Lcom/example/demo/entities/KartEntity;)Lcom/example/demo/entities/KartEntity;70
+
+
+updateKart71
+J
+Dcom.example.demo.services.KartServices#deleteKart(Ljava/lang/Long;)Z73
+
+
+deleteKart74
+X
+Rorg.springframework.data.repository.CrudRepository#deleteById(Ljava/lang/Object;)V76J
+
+1
+12Z
+
+3	
+354j‘
+
+47
+474815
+
+39
+394015
+
+62
+626315
+@
+28:
+282930 *
+1 (26:3B
+	
+9
+10
+
+
+11
+31
+9
+64
+678 *
+1 (:3B
+	
+9
+10
+
+
+11
+12
+@
+49:
+495030 *
+1 (26:3B
+	
+9
+10
+
+
+11
+51
+
+75
+757615
+@
+69:
+697030 *
+1( ((26:3B
+	
+9
+10
+
+
+11
+71
+
+26
+262715
+
+45
+454615
+
+23
+232415
+
+32
+323315
+
+57
+575815
+
+36
+363715
+
+67
+676815
+@
+59:
+596030 *
+1   (26:3B
+	
+9
+10
+
+
+11
+61
+@
+42:
+424330 *
+1 (26:3B
+	
+9
+10
+
+
+11
+44
+@
+54:
+545530 *
+1 (26:3B
+	
+9
+10
+
+
+11
+56
+
+13
+131415
+@
+18:
+181920 *
+1 (26:3B
+	
+9
+21
+
+
+11
+22
+@
+64:
+646530 *
+1$ $(26:3B
+	
+9
+10
+
+
+11
+66
+@
+72:
+727330 *
+1, ,(26:3B
+	
+9
+10
+
+
+11
+74
+
+52
+525315r£
+
+61316*
+1 (
+
+61317*
+1 (	
+
+182325*
+1 (
+
+182616*
+1 (
+
+182617*
+1 (
+
+182317*
+1 (
+
+182317*
+1 (*
+
+283234*
+1 (
+
+283235*
+1  (*
+
+283217*
+1 (
+
+283225*
+1+ (/
+
+283217*
+1  (*
+
+283234*
+1 (
+
+283638*
+1 (
+
+283941*
+1 (#
+
+281838*
+1 (
+
+282317*
+1 (
+
+281838*
+1 (
+
+423217*
+1 (
+
+424538*
+1 (
+
+424741*
+1 (&
+
+421838*
+1 (
+
+422317*
+1 (
+
+421838*
+1 (
+
+493217*
+1 (
+
+493638*
+1 (
+
+495241*
+1 ('
+
+491838*
+1 (
+
+492317*
+1 (
+
+491838*
+1 (
+
+543217*
+1 (
+
+542338*
+1 (
+
+545741*
+1 ()
+
+541838*
+1 (
+
+542317*
+1 (
+
+541838*
+1 (
+
+592338*
+1! !(
+
+596241*
+1! !(+
+
+591838*
+1! !(
+
+592317*
+1! !(
+
+591838*
+1! !(
+
+643217*
+1$ $(
+
+642338*
+1% %(
+
+646741*
+1% %(+
+
+641838*
+1% %(
+
+642317*
+1% %(
+
+641838*
+1% %(
+
+693234*
+1( ((
+
+693235*
+1(" ((,
+
+693217*
+1( ((
+
+693225*
+1(- ((1
+
+693217*
+1(" ((,
+
+693234*
+1) )(
+
+693638*
+1) )(
+
+693941*
+1) )(#
+
+691838*
+1) )(
+
+692317*
+1) )(
+
+691838*
+1) )(
+
+723638*
+1. .(
+
+727541*
+1. .(&
+
+721838*
+1. .(
+
+722317*
+1. .(
+
+721838*
+1. .(

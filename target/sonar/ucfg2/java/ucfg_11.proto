@@ -1,0 +1,27 @@
+
+Xcom.example.demo.services.KartServices#getKartById(Ljava/lang/Long;)Ljava/util/Optional;Œ
+C:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/services/KartServices.java  (+"1*Ž
+1 (£
+ 
+ (2
+%0,com.example.demo.repositories.KartRepository"__id*Z
+
+__unknown_file (>*<(
+&com.example.demo.services.KartServices"
+kartRepository°­
+ (*
+%1java.util.Optional"corg.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;*P
+
+__unknown_file (4
+2
+%0,com.example.demo.repositories.KartRepository*2
+
+__unknown_file (
+
+idjava.lang.Long2findById(Ljava/lang/Object;)"&
+ (+
+
+%1java.util.Optional: 
+, (3
+idjava.lang.LongB*(
+&com.example.demo.services.KartServicesH

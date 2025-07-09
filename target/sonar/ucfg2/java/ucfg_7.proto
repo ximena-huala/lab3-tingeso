@@ -1,0 +1,48 @@
+
+@__sonar_lambda_0$com.example.demo.controllers.CustomerController•
+ŠC:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/controllers/CustomerController.javaW W(W"startingBlock*þ
+startingBlockW W(WÝ
+Ú
+
+__unknown_file (J
+CustomerController.this/com.example.demo.controllers.CustomerController"__id*l
+
+__unknown_file (P*N1
+/com.example.demo.controllers.CustomerController"
+CustomerController.this*
+1*’
+1W! W(/Å
+Â
+W3 W(C0
+%3*com.example.demo.services.CustomerServices"__id*~
+
+__unknown_file (b*`
+J
+CustomerController.this/com.example.demo.controllers.CustomerController"
+customerServicesßÜ
+W3 W(V
+%4boolean"gcom.example.demo.services.CustomerServices#isBirthdayToday(Lcom/example/demo/entities/CustomerEntity;)Z*N
+
+__unknown_file (2
+0
+%3*com.example.demo.services.CustomerServices*K
+
+__unknown_file (/
+-
+c(com.example.demo.entities.CustomerEntity2;isBirthdayToday(Lcom/example/demo/entities/CustomerEntity;)›
+˜
+W! W(W-
+%5'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*+
+
+__unknown_file (
+
+%4boolean";
+W! W(W/
+-
+%5'org.springframework.http.ResponseEntity:9
+W W(-
+c(com.example.demo.entities.CustomerEntityB
+java.util.function.Function

@@ -1,0 +1,27 @@
+
+\com.example.demo.services.KartServices#getKartByCode(Ljava/lang/String;)Ljava/util/Optional;Œ
+C:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/services/KartServices.java  (-"1*
+1 (£
+ 
+ (2
+%0,com.example.demo.repositories.KartRepository"__id*Z
+
+__unknown_file (>*<(
+&com.example.demo.services.KartServices"
+kartRepository²¯
+ (.
+%1java.util.Optional"_com.example.demo.repositories.KartRepository#findByCode(Ljava/lang/String;)Ljava/util/Optional;*P
+
+__unknown_file (4
+2
+%0,com.example.demo.repositories.KartRepository*6
+
+__unknown_file (
+
+codejava.lang.String2findByCode(Ljava/lang/String;)"&
+ (/
+
+%1java.util.Optional:$
+. (9
+codejava.lang.StringB*(
+&com.example.demo.services.KartServicesH

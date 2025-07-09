@@ -1,0 +1,38 @@
+
+jcom.example.demo.controllers.CustomerController#getAllCustomers()Lorg/springframework/http/ResponseEntity;•
+ŠC:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/controllers/CustomerController.java0 (?"1*á
+1) (9¬
+©
+) (90
+%0*com.example.demo.services.CustomerServices"__id*e
+
+__unknown_file (I*G1
+/com.example.demo.controllers.CustomerController"
+customerServicesÔÑ
+) (K
+%1java.util.List"Lcom.example.demo.services.CustomerServices#getAllCustomers()Ljava/util/List;*N
+
+__unknown_file (2
+0
+%0*com.example.demo.services.CustomerServices2getAllCustomers()c
+a
+ (L
+	customersjava.util.List"__id*2
+
+__unknown_file (
+
+%1java.util.List©
+¦
+   (+-
+%2'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*9
+
+__unknown_file (
+
+	customersjava.util.List";
+   (,/
+-
+%2'org.springframework.http.ResponseEntityB31
+/com.example.demo.controllers.CustomerControllerH

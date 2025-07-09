@@ -1,0 +1,27 @@
+
+[com.example.demo.services.KartServices#getKartsByStatus(Ljava/lang/String;)Ljava/util/List;Œ
+C:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/services/KartServices.java$ $(,"1*Š
+1% %(£
+ 
+% %(2
+%0,com.example.demo.repositories.KartRepository"__id*Z
+
+__unknown_file (>*<(
+&com.example.demo.services.KartServices"
+kartRepository°­
+% %(2
+%1java.util.List"]com.example.demo.repositories.KartRepository#findByStatus(Ljava/lang/String;)Ljava/util/List;*P
+
+__unknown_file (4
+2
+%0,com.example.demo.repositories.KartRepository*8
+
+__unknown_file (
+
+statusjava.lang.String2 findByStatus(Ljava/lang/String;)""
+% %(3
+
+%1java.util.List:&
+$- $(:
+statusjava.lang.StringB*(
+&com.example.demo.services.KartServicesH

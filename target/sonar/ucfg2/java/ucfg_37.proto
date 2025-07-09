@@ -1,0 +1,28 @@
+
+]com.example.demo.services.TariffDiscountService#getById(Ljava/lang/Long;)Ljava/util/Optional;•
+ŠC:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/services/TariffDiscountService.java* (1"1*§
+1 (²
+¯
+ (<
+%06com.example.demo.repositories.TariffDiscountRepository"__id*_
+
+__unknown_file (C*A1
+/com.example.demo.services.TariffDiscountService"
+
+repositoryº·
+ (&
+%1java.util.Optional"corg.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;*Z
+
+__unknown_file (>
+<
+%06com.example.demo.repositories.TariffDiscountRepository*2
+
+__unknown_file (
+
+idjava.lang.Long2findById(Ljava/lang/Object;)"&
+ ('
+
+%1java.util.Optional: 
+2 (9
+idjava.lang.LongB31
+/com.example.demo.services.TariffDiscountServiceH

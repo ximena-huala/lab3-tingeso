@@ -1,0 +1,44 @@
+
+wcom.example.demo.controllers.TariffDiscountController#delete(Ljava/lang/Long;)Lorg/springframework/http/ResponseEntity;›
+C:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/controllers/TariffDiscountController.java)" )(("1*¨
+1* *(®
+«
+* *(5
+%0/com.example.demo.services.TariffDiscountService"__id*b
+
+__unknown_file (F*D7
+5com.example.demo.controllers.TariffDiscountController"	
+serviceŒ
+* *(
+
+%1void"Mcom.example.demo.services.TariffDiscountService#deleteById(Ljava/lang/Long;)V*S
+
+__unknown_file (7
+5
+%0/com.example.demo.services.TariffDiscountService*2
+
+__unknown_file (
+
+idjava.lang.Long2deleteById(Ljava/lang/Long;)¤
+¡
++ +(8-
+%2'org.springframework.http.ResponseEntity"gorg.springframework.http.ResponseEntity#ok(Ljava/lang/Object;)Lorg/springframework/http/ResponseEntity;*G
+
+__unknown_file (+")
+'org.springframework.http.ResponseEntity*4
+
+__unknown_file (
+Deleted successfullyr
+p
++ +(9
+%3"__return_xss_sink*K
+
+__unknown_file (/
+-
+%2'org.springframework.http.ResponseEntity";
++ +(9/
+-
+%2'org.springframework.http.ResponseEntity: 
+)) )(>
+idjava.lang.LongB97
+5com.example.demo.controllers.TariffDiscountControllerH

@@ -1,0 +1,28 @@
+
+–com.example.demo.services.TariffDiscountService#save(Lcom/example/demo/entities/TariffDiscountEntity;)Lcom/example/demo/entities/TariffDiscountEntity;•
+ŠC:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/services/TariffDiscountService.java  ($"1*ù
+1 (²
+¯
+ (<
+%06com.example.demo.repositories.TariffDiscountRepository"__id*_
+
+__unknown_file (C*A1
+/com.example.demo.services.TariffDiscountService"
+
+repositoryðí
+ (&4
+%1.com.example.demo.entities.TariffDiscountEntity"]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;*Z
+
+__unknown_file (>
+<
+%06com.example.demo.repositories.TariffDiscountRepository*V
+
+__unknown_file (:
+8
+entity.com.example.demo.entities.TariffDiscountEntity2save(Ljava/lang/Object;)"B
+ ('6
+4
+%1.com.example.demo.entities.TariffDiscountEntity:D
+% (@8
+entity.com.example.demo.entities.TariffDiscountEntityB31
+/com.example.demo.services.TariffDiscountServiceH

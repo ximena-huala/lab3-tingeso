@@ -1,0 +1,21 @@
+
+Wcom.example.demo.controllers.ReservationController#getAllReservations()Ljava/util/List;ò
+çC:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/controllers/ReservationController.java.# .(5"1*»
+1/ /(!≥
+∞
+/ /(!2
+%0,com.example.demo.services.ReservationService"__id*j
+
+__unknown_file (N*L4
+2com.example.demo.controllers.ReservationController"
+reservationServiceﬁ€
+/ /(6
+%1java.util.List"Qcom.example.demo.services.ReservationService#getAllReservations()Ljava/util/List;*P
+
+__unknown_file (4
+2
+%0,com.example.demo.services.ReservationService2getAllReservations()""
+/ /(7
+
+%1java.util.ListB64
+2com.example.demo.controllers.ReservationControllerH

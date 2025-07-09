@@ -1,0 +1,295 @@
+
+1.0com.example:demoJavaFrontend"1752050933137*java2.B¾
+G
+Bsrc/main/java/com/example/demo/services/TariffDiscountService.java2
+
+package4
+
+com.example.demo.services5
+4
+/com.example.demo.services.TariffDiscountService7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+TariffDiscountService12
+,
+&org.springframework.stereotype.Service14
+
+unknown15
+
+annotated by16
+
+
+uses17
+@
+:com.example.demo.services.TariffDiscountService.repository19
+
+field20
+
+private21
+
+
+repository22
+<
+6com.example.demo.repositories.TariffDiscountRepository24
+
+is type25
+<
+6org.springframework.beans.factory.annotation.Autowired27
+N
+Hcom.example.demo.services.TariffDiscountService#getAll()Ljava/util/List;29
+
+method30
+
+getAll31
+4
+.com.example.demo.entities.TariffDiscountEntity33
+<
+6org.springframework.data.repository.ListCrudRepository35
+
+
+references36
+V
+Porg.springframework.data.repository.ListCrudRepository#findAll()Ljava/util/List;38
+
+calls39
+
+–com.example.demo.services.TariffDiscountService#save(Lcom/example/demo/entities/TariffDiscountEntity;)Lcom/example/demo/entities/TariffDiscountEntity;41
+
+
+save42
+
+returns43
+
+	has param44
+8
+2org.springframework.data.repository.CrudRepository46
+c
+]org.springframework.data.repository.CrudRepository#save(Ljava/lang/Object;)Ljava/lang/Object;48
+c
+]com.example.demo.services.TariffDiscountService#getById(Ljava/lang/Long;)Ljava/util/Optional;50
+
+getById51
+i
+corg.springframework.data.repository.CrudRepository#findById(Ljava/lang/Object;)Ljava/util/Optional;53
+S
+Mcom.example.demo.services.TariffDiscountService#deleteById(Ljava/lang/Long;)V55
+
+
+deleteById56
+X
+Rorg.springframework.data.repository.CrudRepository#deleteById(Ljava/lang/Object;)V58J
+
+1
+12Z
+
+3	
+354jÍ
+9
+64
+678 *
+1 (#:3B
+	
+9
+10
+
+
+11
+12
+
+37
+373815
+
+47
+474815
+@
+40:
+404130 *
+1 (26:3B
+	
+9
+10
+
+
+11
+42
+
+57
+575815
+
+26
+262715
+
+34
+343515
+
+45
+454615
+
+23
+232415
+
+32
+323315
+
+13
+131415
+@
+49:
+495030 *
+1 (26:3B
+	
+9
+10
+
+
+11
+51
+@
+18:
+181920 *
+1 (26:3B
+	
+9
+21
+
+
+11
+22
+
+52
+525315
+@
+28:
+282930 *
+1 (26:3B
+	
+9
+10
+
+
+11
+31
+@
+54:
+545530 *
+1 (26:3B
+	
+9
+10
+
+
+11
+56r¯
+
+61316*
+1 (
+
+61317*
+1 (	
+
+182325*
+1 (%
+
+182616*
+1 (
+
+182617*
+1 (
+
+182317*
+1 (%
+
+182317*
+1& (0
+
+283217*
+1 (%
+
+283436*
+1 (
+
+283739*
+1 ("
+
+281836*
+1 (
+
+282317*
+1 (
+
+281836*
+1 (
+
+403243*
+1 ( 
+
+403244*
+1& (:
+
+403217*
+1 ( 
+
+403225*
+1; (A
+
+403217*
+1& (:
+
+403243*
+1 (
+
+404536*
+1 (
+
+404739*
+1 (
+
+401836*
+1 (
+
+402317*
+1 (
+
+401836*
+1 (
+
+493217*
+1 ()
+
+494536*
+1 (
+
+495239*
+1 (#
+
+491836*
+1 (
+
+492317*
+1 (
+
+491836*
+1 (
+
+544536*
+1	 (
+
+545739*
+1 (
+
+541836*
+1	 (
+
+542317*
+1	 (
+
+541836*
+1	 (

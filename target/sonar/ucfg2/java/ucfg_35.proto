@@ -1,0 +1,22 @@
+
+Hcom.example.demo.services.TariffDiscountService#getAll()Ljava/util/List;•
+ŠC:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/services/TariffDiscountService.java& (,"1*Å
+1 (²
+¯
+ (<
+%06com.example.demo.repositories.TariffDiscountRepository"__id*_
+
+__unknown_file (C*A1
+/com.example.demo.services.TariffDiscountService"
+
+repositoryÜÙ
+ (#
+%1java.util.List"Porg.springframework.data.repository.ListCrudRepository#findAll()Ljava/util/List;*Z
+
+__unknown_file (>
+<
+%06com.example.demo.repositories.TariffDiscountRepository2	findAll()""
+ ($
+
+%1java.util.ListB31
+/com.example.demo.services.TariffDiscountServiceH

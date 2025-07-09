@@ -1,0 +1,21 @@
+
+Dcom.example.demo.services.KartServices#getAllKarts()Ljava/util/List;Œ
+C:/Users/Franc/OneDrive/Desktop/cosas xime/Tingeso 2025/proyecto 1/demo/src/main/java/com/example/demo/services/KartServices.java ('"1*¬
+1 (£
+ 
+ (2
+%0,com.example.demo.repositories.KartRepository"__id*Z
+
+__unknown_file (>*<(
+&com.example.demo.services.KartServices"
+kartRepositoryÒÏ
+ ('
+%1java.util.List"Porg.springframework.data.repository.ListCrudRepository#findAll()Ljava/util/List;*P
+
+__unknown_file (4
+2
+%0,com.example.demo.repositories.KartRepository2	findAll()""
+ ((
+
+%1java.util.ListB*(
+&com.example.demo.services.KartServicesH
