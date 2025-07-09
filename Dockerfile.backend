@@ -1,0 +1,18 @@
+FROM eclipse-temurin:17-jdk AS build
+WORKDIR /app
+COPY . .
+RUN ./mvnw clean package -DskipTests
+
+FROM eclipse-temurin:17-jdk
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y netcat-openbsd
+
+COPY --from=build /app/target/*.jar app.jar
+COPY wait-for-mysql.sh .
+
+# ✅ Se le da permiso dentro del contenedor, no en tu PC
+RUN chmod +x /app/wait-for-mysql.sh
+
+EXPOSE 8090
+ENTRYPOINT ["./wait-for-mysql.sh"]
